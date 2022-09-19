@@ -1,0 +1,83 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background-color: #abc4ff;
+}
+.navbar-brand{
+    color: #ffffff;
+}
+.header{
+    margin-bottom: 140px;
+}
+
+
+h3 {
+    text-align: center;
+    color: #89c2f7;
+}
+
+.container {
+    border: 3px solid #bde0fe7d;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    background-color: #89c2f7;
+    border-color: #89c2f7;
+    text-align: center;
+    width: max-content;
+    justify-self: center;
+    margin-bottom: 5px;
+}
+#deletar {
+    border-color: #ff0000b0;
+    background-color: #ff0000b0;
+}
+
+.d-grid {
+    display: flex!important;
+    width: 100%;
+    justify-content: center;
+}
+
+.d-grid  a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.d-grid  a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.changebuttons, .deletebuttons {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.changebuttons:hover, .deletebuttons:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#calendar a {
+    text-decoration: none;
+    color: #000000c4;
+}
+
+.modal-header {
+    background-color: #99b3e9;
+}
+.modal-title{
+    color: #fff;
+    font-weight: 500;
+}
+
+.col {
+    margin-bottom: 6px;
+}

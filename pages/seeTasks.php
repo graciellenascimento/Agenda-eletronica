@@ -95,10 +95,16 @@ $data = mysqli_query($conn, $sql);
     
     <div class="signup">
         <div class="d-grid gap-2"  >
+            <button class="btn btn-primary" type="button" onclick="location.href='viewtaskstable.php'" style="background-color: #89a3f7;">
+                <a href="viewtaskstable.php">
+                <i class="fa-solid fa-table"></i>
+                    Visualizar em tabela
+                </a>
+            </button>
             <button class="btn btn-primary" type="button" onclick="location.href='main.php'">
                 <a href="main.php">
                     <i class="fa-solid fa-house"></i>
-                    Renornar à tela principal
+                    Retornar à tela principal
                 </a>
             </button>
         </div>
