@@ -1,4 +1,5 @@
-Agenda eletrônica feita com PHP. Foi utlizada a biblioteca <i>FullCalendar</i> para a visualização de atividades no calendário e <i>MySQL</i> para o banco de dados.
+<h1> Agenda eletrônica</h1>
+Projeto simples feito com PHP. Foi utilizada a biblioteca <i>FullCalendar</i> para a visualização de atividades no calendário e <i>MySQL</i> para o banco de dados.
 
 <h2>Códigos do banco de dados</h2>
 <h4>Tabela de cadastro de usuários</h4>
