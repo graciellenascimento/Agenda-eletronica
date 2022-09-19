@@ -1,3 +1,4 @@
+Agenda eletrônica feita com PHP. Foi utlizada a biblioteca <i>FullCalendar</i> para a visualização de atividades no calendário e <i>MySQL</i> para o banco de dados.
 
 <h2>Códigos do banco de dados</h2>
 <h4>Tabela de cadastro de usuários</h4>
@@ -17,6 +18,7 @@ CREATE TABLE `tasks`. ( <br>
   `userid` int(11) NOT NULL, <br>
   PRIMARY KEY (`id`)<br>
 ); </code><br>
+<br>
 <code>
 ALTER TABLE `tasks`
  ADD CONSTRAINT `fk_users` FOREIGN KEY (`userid`) REFERENCES `register` (`id`); </code>
